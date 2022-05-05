@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Displaed';
+    src: url('componets/fonts/displayed/DISPLAYED Oblique.ttf');
+}
+
+@font-face {
+    font-family: 'Display';
+    src: url('componets/fonts/display_2/Display.ttf');
+}
+
+@font-face {
+    font-family: 'Creato-display';
+    src: url('componets/fonts/creato_display/CreatoDisplay-LightItalic.otf');
+}

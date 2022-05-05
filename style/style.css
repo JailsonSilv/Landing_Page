@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*---BODY---*/
+
+body {
+    background-color: rgb(23, 29, 29);
+    color: #fff;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/*--all header--*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+h1 {
+    font-size: 95px;
+    line-height: 68px;
+    font-weight: 570;
+    font-family: 'Displaed', sans-serif;
+    color: transparent;
+    background-image: linear-gradient(#ffffff,#334f64);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+ 
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+li#barra {
+    font-size: 29px;
+    font-weight: bold;
+    color: rgb(123, 152, 153);
+}
+
+a {
+    color: #fff;
+    font-size: 19px;
+}
+
+
+#rede-sociais {
+    border: 2px solid rgb(218, 225, 33);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/*--main content, image, form--*/
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    max-width: 500px;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: 'Display', sans-serif;
+    font-weight: 100 normal;
+    margin: 0px 0px 15px 15px;
+
+}
+
+p {
+    font-family: 'Creato-display', Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 550px ;
+    margin: 10px 0px 15px 15px;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+h2 .span1 {
+    text-transform: uppercase;
+    color: rgb(253, 2, 253);
+} 
+
+h2 .span2 {
+    text-transform: uppercase;
+    color: rgb(218, 225, 33);
+}
+
+img {
+    width: 690px;
+    margin-top: -48px;
+    margin-left: 115px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input {
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+form [type = "submit"] {
+    width: 55%;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: 'Display', sans-serif;
+    font-weight: bolder;
+    color: black;
+    background: rgba(219, 225, 33, 0.445);
+}
+
+/*--all events--*/
+
+a:hover {
+    color: rgb(118, 255, 209);
+    transition: 0.7s all;
+    box-shadow: 1px 2px 25px;
+}
+
+#rede-sociais:hover {
+    color: rgb(253, 2, 253);
+}
+
+form [type = "submit"]:hover {
+    cursor: pointer;
+    background: rgb(218, 225, 33);
+    box-shadow: 0px 5px 20px rgb(218, 225, 33);
+    transition: 0.5s all;
+}
